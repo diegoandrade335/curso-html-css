@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(245, 241, 220);
+}
+
+h1{
+    font-family: fantasy;
+    color: rgba(0, 89, 255, 0.856);
+}
+
+#primeiro{
+    color: blueviolet;
+}
+
+main{
+    background-color: white;
+    width: 900px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: auto;
+
+}
