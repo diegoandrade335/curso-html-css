@@ -1,3 +1,6 @@
+
+/* configurações gerais */
+
 * {
     padding: 0px;
     margin: 0px;
@@ -5,15 +8,8 @@
 }
 
 html, body{
-    width: 100vw;
+    width:  100vw; /* largura*/
     height: 100vh;
-    background-color: rgb(151, 82, 82);
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-h1{
-    color: white;
-    text-shadow: 3px 3px 0px black;
-    padding: 10px;
 }

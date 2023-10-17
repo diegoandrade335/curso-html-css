@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+           <p>Meu texto</p>
+           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, atque. Fugit ipsum culpa obcaecati, iste ducimus magni. In tempore commodi totam, ducimus necessitatibus molestiae ipsam, earum reiciendis sapiente temporibus dolorem tempora possimus distinctio cumque accusamus dicta est esse molestias, perspiciatis adipisci consequatur maxime. Officiis consectetur maiores quam magni error, necessitatibus rerum nobis sit aspernatur repellat quasi ab quos natus ex magnam aut obcaecati doloremque harum velit, veritatis reprehenderit ea sapiente. Nam repudiandae laudantium veritatis eligendi, eius laboriosam, consequuntur officiis aperiam doloribus non eaque illo sit corporis autem quis iusto rem cum modi reiciendis optio? Excepturi necessitatibus aspernatur velit mollitia, fugiat ad et quidem laudantium voluptatibus harum laboriosam ut debitis. Cumque officia perspiciatis quia quo voluptatem dolor at veritatis distinctio? Quasi!</p>
+        
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ducimus architecto rerum velit maxime assumenda optio ut, voluptate nesciunt corrupti totam, itaque perferendis ab quam repudiandae at ipsum ullam magni similique alias debitis sunt et accusantium reiciendis. Consequatur animi tempora molestiae minima consequuntur aspernatur tempore, odio nulla vero consectetur magni ab quo? Deleniti fugit natus blanditiis ullam velit ratione, sequi officia repudiandae quis nisi dolores, ut provident necessitatibus eaque, aperiam fugiat dolorem consequuntur harum quasi dolorum veritatis culpa porro perspiciatis quae. Eos aut veniam odio nihil? Dolores voluptatem aliquam cupiditate, recusandae officia voluptatibus, nulla in pariatur labore reprehenderit provident praesentium! Dolorum facilis aperiam quo. Omnis, reiciendis maxime? Incidunt pariatur beatae sint deleniti debitis, eius inventore et voluptatibus deserunt quod sapiente!</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima consequuntur maxime voluptates? Facilis, commodi? Sunt nostrum nisi iure praesentium voluptatum sequi placeat libero fuga natus sit! Assumenda, cupiditate voluptatibus. Incidunt, quos porro. Eum rem obcaecati harum itaque? Ipsa, labore tempora? Possimus enim cumque quibusdam odit totam id, facilis aperiam maiores pariatur impedit quas incidunt officia ipsa reiciendis! Veritatis beatae est commodi quos dolor molestias, vitae laborum magni laudantium similique itaque vero iusto unde fuga earum cumque sequi nulla provident maiores quas, in mollitia repudiandae! Quaerat officiis, tenetur quis debitis perspiciatis iure hic blanditiis facere, amet voluptate beatae pariatur nihil ipsa reprehenderit corrupti alias iste totam minima fuga, nemo nobis nulla? Doloremque voluptas culpa nobis minus perferendis mollitia molestiae ad accusantium.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if (itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+
+        }
+    </script>
+</body>
+</html>
+
